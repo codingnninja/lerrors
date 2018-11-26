@@ -1,0 +1,28 @@
+{
+    "name": "codingnninja/lerrors",
+    "description": "Find solutions to programming errors with ease",
+    "authors": [
+        {
+            "name": "Ogundiran Ayobami",
+            "email": "ayobami_ogundiran@yahoo.com"
+        }
+    ],
+    "require": {
+    	
+    },
+    "autoload": {
+        "psr-4": {
+            "Codingnninja\\Lerrors\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codingnninja\\Lerrors\\LerrorsServiceProvider"
+            ],
+            "aliases": {
+                "Lerrors": "Codingnninja\\Lerrors\\Facades\\Lerrors"
+            }
+        }
+    }
+}
