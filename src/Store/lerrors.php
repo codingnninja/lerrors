@@ -57,8 +57,10 @@ class Store
         /***********************************Solution:Fallback for errors not listed in this package*****************/
             'notFound' => 'The error is not listed in this package but below information may help:
             Case 1: If you see error: The page has expired due to inactivity. Please refresh and try again. You need to reload the page or add @csrf to your form.
-     
-            Case 2: https://lerrors.com/withoutErrors would contain the solution to this problem or try checking if __construct() is not mispelt, run composer dump-autoload; if it is still not working, please contribute the error and its solution to this package to prevent others from facing the same challenges you faced in solving the problem. Thanks in advance.'
+
+            Case 2: If you want to store data to DB, you should set route method to post. E.g post("add", "ExampleController@method"), or else, use get as in get("post/id","ExampleController@method")
+
+            Case 3: https://lerrors.com/withoutErrors would contain the solution to this problem or try checking if __construct() is not mispelt, run composer dump-autoload; if it is still not working, please contribute the error and its solution to this package to prevent others from facing the same challenges you faced in solving the problem. Thanks in advance.'
 
         /***********************************************************************************************************/
         ];
