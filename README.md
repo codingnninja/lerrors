@@ -28,7 +28,7 @@ to the render method that is present in app/Exception/Handler.php
 
 Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the news!
 
-Don't forget to [follow me on twitter](https://twitter.com/ayovision)!
+Don't forget to [follow me on twitter](https://twitter.com/codingnninja)!
 
 Thanks!
 Ayobami.
